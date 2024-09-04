@@ -2350,61 +2350,61 @@
                             {
                                 "airport": "KCLT",
                                 "rate": 5,
-                                "runway": "18C",
+                                "runway": "18L",
                                 "category": "BARMY4"
                             },
                             {
                                 "airport": "KCLT",
                                 "rate": 5,
-                                "runway": "18C",
+                                "runway": "18L",
                                 "category": "KILNS4"
                             },
                             {
                                 "airport": "KCLT",
                                 "rate": 5,
-                                "runway": "18C",
+                                "runway": "18L",
                                 "category": "ICONS4"
                             },
                             {
                                 "airport": "KCLT",
                                 "rate": 5,
-                                "runway": "18C",
+                                "runway": "18L",
                                 "category": "KWEEN4"
                             },
                             {
                                 "airport": "KCLT",
                                 "rate": 5,
-                                "runway": "18L",
+                                "runway": "18C",
                                 "category": "BEAVY5"
                             },
                             {
                                 "airport": "KCLT",
                                 "rate": 5,
-                                "runway": "18L",
+                                "runway": "18C",
                                 "category": "BOBZY4"
                             },
                             {
                                 "airport": "KCLT",
                                 "rate": 5,
-                                "runway": "18L",
+                                "runway": "18C",
                                 "category": "ESTRR4"
                             },
                             {
                                 "airport": "KCLT",
                                 "rate": 5,
-                                "runway": "18L",
+                                "runway": "18C",
                                 "category": "JOJJO4"
                             },
                             {
                                 "airport": "KCLT",
                                 "rate": 5,
-                                "runway": "18L",
+                                "runway": "18C",
                                 "category": "KRITR5"
                             },
                             {
                                 "airport": "KCLT",
                                 "rate": 5,
-                                "runway": "18L",
+                                "runway": "18C",
                                 "category": "WEAZL4"
                             }
                         ],
@@ -2482,61 +2482,61 @@
                                 {
                                     "airport": "KCLT",
                                     "rate": 5,
-                                    "runway": "36C",
+                                    "runway": "36R",
                                     "category": "BARMY4"
                                 },
                                 {
                                     "airport": "KCLT",
                                     "rate": 5,
-                                    "runway": "36C",
+                                    "runway": "36R",
                                     "category": "KILNS4"
                                 },
                                 {
                                     "airport": "KCLT",
                                     "rate": 5,
-                                    "runway": "36C",
+                                    "runway": "36R",
                                     "category": "ICONS4"
                                 },
                                 {
                                     "airport": "KCLT",
                                     "rate": 5,
-                                    "runway": "36C",
+                                    "runway": "36R",
                                     "category": "KWEEN4"
                                 },
                                 {
                                     "airport": "KCLT",
                                     "rate": 5,
-                                    "runway": "36R",
+                                    "runway": "36C",
                                     "category": "BEAVY5"
                                 },
                                 {
                                     "airport": "KCLT",
                                     "rate": 5,
-                                    "runway": "36R",
+                                    "runway": "36C",
                                     "category": "BOBZY4"
                                 },
                                 {
                                     "airport": "KCLT",
                                     "rate": 5,
-                                    "runway": "36R",
+                                    "runway": "36C",
                                     "category": "ESTRR4"
                                 },
                                 {
                                     "airport": "KCLT",
                                     "rate": 5,
-                                    "runway": "36R",
+                                    "runway": "36C",
                                     "category": "JOJJO4"
                                 },
                                 {
                                     "airport": "KCLT",
                                     "rate": 5,
-                                    "runway": "36R",
+                                    "runway": "36C",
                                     "category": "KRITR5"
                                 },
                                 {
                                     "airport": "KCLT",
                                     "rate": 5,
-                                    "runway": "36R",
+                                    "runway": "36C",
                                     "category": "WEAZL4"
                                 }
                             ],
