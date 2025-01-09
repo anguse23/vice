@@ -4301,6 +4301,66 @@
       }
     ]
   },
+  "CAMRN/LENDY8.Finals31": {
+    "arrivals": [
+      {
+        "waypoints": "N040.12.34.307,W073.43.07.417 N040.16.13.896,W073.40.17.843/ho/h40",
+        "cruise_altitude": 39000,
+        "star": "CAMRN4",
+        "initial_controller": "JFK_G_APP",
+        "initial_altitude": 8000,
+        "assigned_altitude": 4000,
+        "initial_speed": 250,
+        "speed_restriction": 250,
+        "expect_approach": null,
+        "airlines": {
+          "KJFK": [
+            {
+              "icao": "WJA",
+              "fleet": "jfk",
+              "airport": "KDCA"
+            },
+            {
+              "icao": "WJA",
+              "fleet": "jfk",
+              "airport": "KORF"
+            },
+            {
+              "icao": "WJA",
+              "fleet": "jfk",
+              "airport": "KJAX"
+            },
+            {
+              "icao": "JBU",
+              "airport": "KMCO"
+            },
+            {
+              "icao": "JBU",
+              "airport": "KCLT"
+            },
+            {
+              "icao": "BWA",
+              "airport": "MKJP"
+            },
+            {
+              "icao": "AAL",
+              "airport": "KAUS"
+            },
+            {
+              "icao": "AMX",
+              "fleet": "long",
+              "airport": "MMMY"
+            },
+            {
+              "icao": "AMX",
+              "fleet": "long",
+              "airport": "MMMX"
+            }
+          ]
+        }
+      }
+    ]
+  },
   "CAMRN4": {
     "arrivals": [
       {
@@ -5430,6 +5490,129 @@
         }
       }
     ]
+  },
+  "PARCH3/ROBER2.Finals31": {
+    "arrivals": [
+      {
+        "waypoints": "CCC ROBER/ho/h240",
+        "cruise_altitude": 36000,
+        "star": "PARCH3",
+        "initial_controller": "JFK_K_APP",
+        "initial_altitude": 12000,
+        "assigned_altitude": 5000,
+        "initial_speed": 250,
+        "description": "PARCH3",
+        "expect_approach": null,
+        "airlines": {
+          "KJFK": [
+            {
+              "icao": "AAL",
+              "fleet": "short",
+              "airport": "CYYZ"
+            },
+            {
+              "icao": "AFR",
+              "fleet": "long",
+              "airport": "LFPG"
+            },
+            {
+              "icao": "BAW",
+              "fleet": "long",
+              "airport": "EGLL"
+            },
+            {
+              "icao": "CLX",
+              "airport": "EGCC"
+            },
+            {
+              "icao": "DAL",
+              "fleet": "short",
+              "airport": "KBOS"
+            },
+            {
+              "icao": "DLH",
+              "fleet": "long",
+              "airport": "EDDF"
+            },
+            {
+              "icao": "GEC",
+              "airport": "EDDF"
+            },
+            {
+              "icao": "DLH",
+              "fleet": "long",
+              "airport": "EDDM"
+            },
+            {
+              "icao": "GEC",
+              "airport": "EDDM"
+            },
+            {
+              "icao": "EIN",
+              "fleet": "long",
+              "airport": "EIDW"
+            },
+            {
+              "icao": "ELY",
+              "fleet": "jfk",
+              "airport": "LLBG"
+            },
+            {
+              "icao": "FIN",
+              "fleet": "long",
+              "airport": "EFHK"
+            },
+            {
+              "icao": "GEC",
+              "airport": "EDDF"
+            },
+            {
+              "icao": "IBE",
+              "fleet": "long",
+              "airport": "LEBL"
+            },
+            {
+              "icao": "IBE",
+              "fleet": "long",
+              "airport": "LEMD"
+            },
+            {
+              "icao": "JBU",
+              "airport": "KBOS"
+            },
+            {
+              "icao": "KLM",
+              "fleet": "long",
+              "airport": "EHAM"
+            },
+            {
+              "icao": "UAE",
+              "fleet": "loww",
+              "airport": "OMDB"
+            },
+            {
+              "icao": "UAL",
+              "fleet": "short",
+              "airport": "CYYZ"
+            },
+            {
+              "icao": "UAL",
+              "fleet": "short",
+              "airport": "KBOS"
+            },
+            {
+              "icao": "UPS",
+              "airport": "KBOS"
+            },
+            {
+              "icao": "VIR",
+              "fleet": "long",
+              "airport": "EGCC"
+            }
+          ]
+        }
+      }
+    ]
   }
 },
   "control_positions": {
@@ -6397,6 +6580,38 @@
       "wind": {
         "direction": 260,
         "speed": 9
+      }
+    },
+    "KJFK Finals 31": {
+      "arrival_runways": [
+        {
+          "airport": "KJFK",
+          "runway": "31L"
+        },
+        {
+          "airport": "KJFK",
+          "runway": "31R"
+        }
+      ],
+      "airspace": { "JFK_A_APP": [ "JFK_FINAL_31RL" ] },
+      "arrivals": {
+        "PARCH3/ROBER2.Finals31": {
+          "KJFK": 10
+        },
+        "CAMRN/LENDY8.Finals31": {
+          "KJFK": 29
+        }
+      },
+      "solo_controller": "JFK_A_APP",
+      "controllers": [
+        "BOS_E_CTR",
+        "JFK_TWR"
+      ],
+      "default_maps": [ "JFK ARR/DEP RWY 31L/R" ],
+      "wind": {
+        "direction": 300,
+        "speed": 7,
+        "gust": 17
       }
     }
   },
