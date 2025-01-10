@@ -4901,8 +4901,7 @@
         "initial_controller": "JFK_G_APP",
         "initial_altitude": 8000,
         "assigned_altitude": 4000,
-        "initial_speed": 250,
-        "speed_restriction": 250,
+        "initial_speed": 210,
         "expect_approach": null,
         "airlines": {
           "KJFK": [
@@ -6984,7 +6983,7 @@
         "initial_controller": "JFK_K_APP",
         "initial_altitude": 12000,
         "assigned_altitude": 5000,
-        "initial_speed": 250,
+        "initial_speed": 210,
         "description": "PARCH3",
         "expect_approach": null,
         "airlines": {
