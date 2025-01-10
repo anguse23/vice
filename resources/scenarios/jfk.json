@@ -4899,8 +4899,8 @@
         "cruise_altitude": 39000,
         "star": "CAMRN4",
         "initial_controller": "JFK_G_APP",
-        "initial_altitude": 8000,
-        "assigned_altitude": 4000,
+        "initial_altitude": 6000,
+        "assigned_altitude": 3000,
         "initial_speed": 210,
         "expect_approach": null,
         "airlines": {
