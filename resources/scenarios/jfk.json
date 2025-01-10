@@ -7545,7 +7545,8 @@
         "LGA_APP",
         "LGA_DEP",
         "NY_B_CTR",
-        "NY_LE_DEP"
+        "NY_LE_DEP",
+        "NY_LS_DEP"
       ],
       "default_maps": [ "JFK ARR/DEP RWY 13L/R" ],
       "departure_runways": [
@@ -7699,7 +7700,8 @@
         "LGA_APP",
         "LGA_DEP",
         "NY_B_CTR",
-        "NY_LE_DEP"
+        "NY_LE_DEP",
+        "NY_LS_DEP"
       ],
       "default_maps": [ "JFK ARR/DEP RWY 22L/R" ],
       "departure_runways": [
@@ -7848,7 +7850,8 @@
         "LGA_APP",
         "LGA_DEP",
         "NY_B_CTR",
-        "NY_LE_DEP"
+        "NY_LE_DEP",
+        "NY_LS_DEP"
       ],
       "default_maps": [ "JFK ARR/DEP RWY 22L/R" ],
       "departure_runways": [
@@ -7996,7 +7999,8 @@
         "LGA_APP",
         "LGA_DEP",
         "NY_B_CTR",
-        "NY_LE_DEP"
+        "NY_LE_DEP",
+        "NY_LS_DEP"
       ],
       "default_maps": [ "JFK ARR/DEP RWY 31L/R" ],
       "departure_runways": [
@@ -8144,7 +8148,8 @@
         "LGA_APP",
         "LGA_DEP",
         "NY_B_CTR",
-        "NY_LE_DEP"
+        "NY_LE_DEP",
+        "NY_LS_DEP"
       ],
       "default_maps": [ "JFK ARR/DEP RWY 4L/R" ],
       "departure_runways": [
