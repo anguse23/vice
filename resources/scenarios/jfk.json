@@ -723,63 +723,691 @@
         {
           "airlines": [
             {
-              "fleet": "long",
-              "icao": "AFR"
+              "icao":"JAL",
+              "types":["A35K"]
+            },
+            {
+              "icao": "AAL",
+              "types":["B789"]
+            },
+            {
+              "icao":"ANA",
+              "types":["B77W"]
             }
           ],
-          "destination": "LFPG",
-          "exit": "HAPIE",
-          "route": "HAPIE YAHOO WHALE N251A JOOPY NATZ MALOT NATZ GISTI LESLU M142 LND N160 NAKID M25 ANNET UM25 UVSUV UM25 INGOR UM25 LUKIP LUKIP9E"
+          "destination": "RJTT",
+          "exit": "GREKI",
+          "route": "GREKI JUDDS CAM BUGSY PELEE 6000N/09000W 6400N/10000W 6600N/11000W 6700N/12000W 6800N/13000W YEV POTAT NCA30 OME R338 NATES R220 NANAC Z22 LOSVA Y810 AKRIT Y807 POLIX"
         },
         {
           "airlines": [
             {
-              "fleet": "long",
-              "icao": "BAW"
+              "icao":"EVA",
+              "types":["B77W"]
             },
             {
-              "icao": "VIR"
+              "icao": "CAL",
+              "types":["B77W"]
+            }
+          ],
+          "destination": "RCTP",
+          "exit": "GAYEL",
+          "route": "GAYEL Q812 SYR TULEG OXASA 4730N/08000W 5800N/09000W 6300N/10000W 6500N/11000W 6630N/12000W 6800N/13000W POTAT NCA30 BTT NCA30 OME R338 IDROD R338 MARCC R338 NATES R220 NIPPI R220 NOGAL R220 NANNO OTR1 NOSLY OTR1 OBE V6 CHE V30 HWE Y12 TAPPI Z16 SPIDR Z16 MIHOU Y45 HKC Y50 IGMON A1 BULAN A1 DRAKE DRAKE1A"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"SIA",
+              "types":["A359"]
+            }
+          ],
+          "destination": "WSSS",
+          "exit": "SHIPP",
+          "route": "SHIPP Y487 ISLES JENYY DOVEY NATX ATSUR RATKA LARLA OTOFE UN491 LUVAL BEGAR TRA GAMSA UMVEG DIMLO INVED LUGEB UDROS CRM ROLIN N644 TETRO BARAD M747 SULEL N449 DUKAN B449 RANAH L750 BIROS L750 ZB G202 RK P628 VIKIT P628 NIKOT P628 IBANI L510 IDKUT L510 GIVAL P628 VPL Y503 RINBA Y507 MAKNA Y511 TOPOR A464 ARAMA TEBUN TEBUN1A"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"AIC",
+              "types":["B77W"]
+            }
+          ],
+          "destination": "VABB",
+          "exit": "GREKI",
+          "route": "GREKI JUDDS MARTN CEFOU SAVRY 6300N/05000W 6600N/04000W 6800N/03000W 6900N/02000W 7000N/01000W 7000N/00000E LIPSA PEXOL RUDAM P35 SOTIS T822 LIKPA T762 NEBNA T762 BASAB M168 ARK W332 DZG M168 TIMKA P178 SMK L139 TULGA L139 INKAR L139 PERUD L139 POMIR G500 FIRUZ P500 GERRY P500 ATROL P500 LAKRA G325 ZB G202 RK P628 VIKIT Z8 AAE W97 QQZ W77 SG W10S AKTIV"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"QFA",
+              "types":["B789"]
+            }
+          ],
+          "destination": "NZAA",
+          "exit": "RBV",
+          "route": "RBV Q430 AIR J80 TWAIN J80 MCI J24 SLN J102 ALS J44 RSK J64 HEC J60 PDZ SXC C1177 ROSIN C1177 FICKY 2744N/12608W 2454N/12934W 2332N/13108W 1932N/13530W 1623N/13829W 1307N/14121W 1023N/14336W 0559N/14736W 0507N/14831W 0118N/15310W 0200S/15700W 0500S/15953W 0517S/16010W 0637S/16131W 0939S/16432W 1144S/16636W 1444S/16925W 1821S/17244W 1949S/17357W 2253S/17616W 2747S/17922W 2940S/17937E TARIB"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"ASA",
+              "types":["B39M"]
+            },
+            {
+              "icao":"DAL",
+              "types":["A21N"]
+            }
+          ],
+          "destination": "KPDX",
+          "exit": "COATE",
+          "route": "COATE Q436 RAAKK Q440 CFKHS Q440 IDIOM Q440 HUFFR KP03E KP06A MLS KU09Q JORAD HHOOD5"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"AAL",
+              "types":["A321"]
+            },
+            {
+              "icao":"ASA",
+              "types":["B39M","B739"]
+            },
+            {
+              "icao":"DAL",
+              "types":["B752","B763"]
+            },
+            {
+              "icao":"JBU",
+              "types":["A321","A21N"]
+            }
+          ],
+          "destination": "KSFO",
+          "exit": "DEEZZ",
+          "route": "DEEZZ CANDR J60 DJB UNBAR +J584 OBK DBQ JORDY TODDO KP69C PECKS KD66A KD63W KD60S DTA RUMPS INYOE DYAMD5"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"ASA",
+              "types":["B39M","B739"]
+            },
+            {
+              "icao":"DAL",
+              "types":["A21N","B763"]
+            },
+            {
+              "icao":"JBU",
+              "types":["A321"]
+            }
+          ],
+          "destination": "KSAN",
+          "exit": "DEEZZ",
+          "route": "DEEZZ CANDR J60 DJB TAADD IRK KD48Y KA33Q NICKT J74 PKE LUCKI1"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"AAL",
+              "types":["B38M","B738"]
+            },
+            {
+              "icao":"DAL",
+              "types":["A320","BCS1"]
+            }
+          ],
+          "destination": "KAUS",
+          "exit": "RBV",
+          "route": "RBV Q430 COPES Q75 GVE ALEAN VXV CALCO VLKNN MEI MCB IAH LUKKN WLEEE7"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"AAL",
+              "types":["B77W"]
+            },
+            {
+              "icao":"DAL",
+              "types":["A339"]
+            }
+          ],
+          "destination": "SAEZ",
+          "exit": "SHIPP",
+          "route": "SHIPP Y492 SQUAD DARUX L456 HANCY L456 THANK COY GEECE UL776 KORTO BUVIP MINUG SEDGA UM402 EDRUS UM402 REMEK VAS UP526 SASKU KUKEN KUKE6B"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"AAL",
+              "types":["B738","B772"]
+            },
+            {
+              "icao":"DAL",
+              "types":["BCS1"]
+            }
+          ],
+          "destination": "KDFW",
+          "exit": "RBV",
+          "route": "RBV Q430 SAAME J6 MRB J6 HVQ Q68 LITTR FEWWW BRDJE5"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"AVA",
+              "types":["A320","A20N","B788"]
+            }
+          ],
+          "destination": "SKBO",
+          "exit": "RBV",
+          "route": "RBV Q430 COPES Q75 GVE NUTTS BUTTS SESUE BAHAA NUCAR AR3 ZQA Y307 ENAMO UM218 VIKRO UL347 HANCK UP406 AKPEK UQ121 ISVAT ISVA4E"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"AVA",
+              "types":["A320"]
+            },
+            {
+              "icao":"JBU",
+              "types":["A320"]
+            }
+          ],
+          "destination": "SKCG",
+          "exit": "WAVEY",
+          "route": "WAVEY EMJAY Q167 PAJET Q167 ZJAAY KALDA TUGGR Q101 SKARP IDOLS JAZZI Y319 URSUS UP406 UBSUX VARON VARO2B"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"AVA",
+              "types":["A320","A20N"]
+            }
+          ],
+          "destination": "SKRG",
+          "exit": "WAVEY",
+          "route": "WAVEY EMJAY Q167 KALDA Q131 EARZZ SKARP AR22 IDOLS DIZNY AR3 JAZZI CARPX Y307 CASPR NUCAR CVIKK ZQA B503 ENAMO UM218 VIKRO UL347 HANCK UP406 AKPEK AKPE4C"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"CES",
+              "types":["A333","B77W"]
+            }
+          ],
+          "destination": "ZSPD",
+          "exit": "GAYEL",
+          "route": "GAYEL Q812 SYR TULEG YYB SASOB 5600N/09000W 6100N/10000W 6400N/11000W 6600N/12000W 6700N/13000W POTAT OTZ B244 FRENK N735 ASBAT T634 BISMA T634 GIRUD T634 MAGIT R213 JMU G212 HRB A588 CHI W107 SANKO A326 IKADI A326 SURAK A326 AKARA A593 PUD"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"CSN",
+              "types":["B77W"]
+            }
+          ],
+          "destination": "ZGGG",
+          "exit": "GREKI",
+          "route": "GREKI JUDDS MARTN BAREE YBC ALSOP PIDSO 6600N/05000W 6900N/04000W 7400N/00000E BJO ADEMA M168 KUDEP M168 NRM N151 ARKUK G719 TARSA R809 PTG G490 BRT M132 NAPEG B718 CS G490 SERNA Y520 POLHO G218 TMR B458 DADGA W37 OMBEB R473 BEMAG V5 ATAGA"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"CMP",
+              "types":["B39M","B738"]
+            }
+          ],
+          "destination": "MPTO",
+          "exit": "WAVEY",
+          "route": "WAVEY EMJAY Q167 ZJAAY KALDA Q101 SKARP JRDAN AR3 JAZZI Y319 URSUS UL780 DAGUD VUNIB OSUPA OSUPA1B"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"DAL",
+              "types":["B763"]
+            }
+          ],
+          "destination": "GOBD",
+          "exit": "SHIPP",
+          "route": "SHIPP Y487 ISLES SLATN 3800N/06000W 3700N/05000W 3400N/04000W 2700N/03000W BAMUX LUMPO"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"DAL",
+              "types":["A21N", "A321", "B763"]
+            },
+            {
+              "icao":"JBU",
+              "types":["BCS3"]
+            }
+          ],
+          "destination": "KDEN",
+          "exit": "GAYEL",
+          "route": "GAYEL Q818 IKNAV OMRAK HOCKE SLLAP KG81O KP81I ONTIJ SPW ONL PORDR AALLE3"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"DAL",
+              "types":["B763"]
+            },
+            {
+              "icao":"HAL",
+              "types":["A332"]
+            }
+          ],
+          "destination": "PHNL",
+          "exit": "RBV",
+          "route": "RBV Q430 AIR VHP MCI ALS PGS HEC DINTY R576 DIALO R576 DENNS MAGGI3"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"DAL",
+              "types":["B764"]
+            },
+            {
+              "icao":"TAP",
+              "types":["A21N"]
+            }
+          ],
+          "destination": "LPPT",
+          "exit": "SHIPP",
+          "route": "SHIPP Y487 ISLES SLATN SOORY 3900N/05000W 4100N/04000W 4100N/03000W 4100N/02000W ERPES LAZET LAZET2B"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"DAL",
+              "types":["B764"]
+            },
+            {
+              "icao":"SWR",
+              "types":["A333"]
+            }
+          ],
+          "destination": "LSZH",
+          "exit": "HAPIE",
+          "route": "HAPIE YAHOO WHALE NANSO N49C RAFIN NATW 5100N/02000W NATW ELSOX GAPLI LIZAD JSY ARSUK RESMI UN491 TEPRI NANOP MANAG PEVIT BLM"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"MSR",
+              "types":["B77W"]
+            }
+          ],
+          "destination": "HECA",
+          "exit": "MERIT",
+          "route": "MERIT HFD PUT BOS ALLEX N379A ALLRY 5100N/05000W 5200N/04000W 5300N/03000W 5200N/02000W LIMRI XETBO NORLA PEWBI OXLOW KONAN UL607 KOK M150 KOMOB EDISA KUNOD GEDSO VEKEN DARZA RUGOG RASTU GLOMY PETAK PINDO UL607 PIKOS GERMI MIL UL617 SIT UL612 KUMBI L612 BLT A16 CVO"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"ETH",
+              "types":["B789"]
+            }
+          ],
+          "destination": "DIAP",
+          "exit": "SHIPP",
+          "route": "SHIPP Y487 ISLES SLATN 3700N/06000W 3200N/05000W 2900N/04500W 2600N/04000W ULTEM UR976 GAMBA UR976 LUMPO BADIA UR979 AD"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"ETH",
+              "types":["B789"]
+            }
+          ],
+          "destination": "DXXX",
+          "exit": "SHIPP",
+          "route": "SHIPP Y487 ISLES SLATN MUNEY 3630N/06000W 3300N/05000W 2800N/04000W 2200N/03000W ULTEM UR976 LUMPO BADIA UR979 LUGMI FRH ERMIT YAM TUSEK ACC UL433 EREKA L433 KETAT KETAT1E"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"ETD",
+              "types":["A388", "B789"]
+            }
+          ],
+          "destination": "OMAA",
+          "exit": "BETTE",
+          "route": "BETTE ACK WHALE N75A SUPRY NATV XETBO CRK EVRIN JETZI AMFUL CAWZE SIRIC BOGNA UL612 VEULE TEPRI UN491 LUVAL BEGAR TRA GAMSA UMVEG OKLOP ETIDA ARTAT UP975 EZS UL614 OTKEP UM688 RATVO UM688 KEDIM SISIN UM688 SIDAD P975 LONOS P708 DEBEN P708 GESIT P708 HAYYA P708 OVONA N318 KAPUM Z522 ALNEV Q415 UKILI"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"HYS",
+              "types":["A332"]
+            }
+          ],
+          "destination": "LROP",
+          "exit": "SHIPP",
+          "route": "SHIPP Y487 ISLES JENYY JOBOC +4100N/06000W 4300N/05000W 4600N/04000W 4800N/03000W 4900N/02000W BEDRA NASBA RATKA LARLA OTOFE UN491 LUVAL BEGAR TRA GAMSA BIRGI GOTAR INVED LAMIT TOSVI"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"KQA",
+              "types":["B788"]
+            }
+          ],
+          "destination": "HKJK",
+          "exit": "HAPIE",
+          "route": "HAPIE YAHOO VITOL NANSO N45D RAFIN 4500N/05000W 4700N/04000W 4600N/03000W 4200N/02000W KOMUT SONAP ORTOP N726 BAMBA UN726 ARI UL58 XAVOV UM999 MNA UB730 DIR UG862 ONUDA UG862 BUN UT325 SIPKI UW325 NN PASAN UQ211 XAGIT XAGI1B"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"KAC",
+              "types":["B77W"]
+            }
+          ],
+          "destination": "OKKK",
+          "exit": "HAPIE",
+          "route": "HAPIE YAHOO DOVEY 4200N/06000W 4400N/05000W 4700N/04000W 4900N/03000W 5000N/02000W SOMAX ATSUR GAPLI LIZAD TURDU TADUP TEPRI NANOP MANAG BEGAR TRA GAMSA GEDSO GIMIX RISTU ETIDA ARTAT UP975 ERGUN UL124 EVSAS UM688 RATVO UM688 KEDIM SISIN UM688 SIDAD N302 ALVAX"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"LAN",
+              "types":["B788","B789"]
+            }
+          ],
+          "destination": "SCEL",
+          "exit": "WAVEY",
+          "route": "WAVEY EMJAY Q167 ZJAAY KALDA Q133 CHIEZ AR19 JRDAN AR3 JAZZI AR24 URSUS UL780 TORIL UL780 SORTA UL780 SULNA UT315 TOY UL302 SIMOK SIMOK7B"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"QTR",
+              "types":["A359","B77W"]
+            }
+          ],
+          "destination": "OTHH",
+          "exit": "BETTE",
+          "route": "BETTE ACK SAILE DOVEY 4100N/06000W 4100N/05500W 4100N/05000W 4200N/04000W 4330N/03000W 4330N/02000W ARMED RIVRO BARDI M191 DIPOL M871 NVS NANDO FENXE MABUX RETBA MOPIR LASPO ODSEN VARUT IBEBA IBA RONDU Z224 NINES OLMIR XARON GENIO LUXUR UM134 ANB UA411 MORJA SONAK DINUX ARLOS SALUN N705 BOPIX N710 TAKRI M720 FYM M872 SEMRU M872 WEJ L604 MUSRI L604 TABTA L604 KFA M691 LADNA N318 GEXIM N318 HAYYA"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"RAM",
+              "types":["B788","B789"]
+            }
+          ],
+          "destination": "GMMN",
+          "exit": "BETTE",
+          "route": "BETTE ACK WHALE N23A CARAC JEBBY 4300N/05000W 4200N/04000W 4100N/03000W 3800N/02000W LUTAK SUBAL IBALU UA411 LAKAM LAKAM2A"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"RJA",
+              "types":["B788"]
+            }
+          ],
+          "destination": "OJAI",
+          "exit": "SHIPP",
+          "route": "SHIPP Y487 ISLES JENYY DOVEY NATX ATSUR GAPLI LIZAD JSY ARSUK RESMI UN491 LUVAL BEGAR TRA GAMSA N871 MADEB N606 OTRES T307 DIRAB GOTEK KUBUD NISVA VIT USALI N131 OTKOK N131 RODIP UN131 IDILO UN131 KULAR UT39 TOMBI IDAKU L35 PIKOG L609 ZUKKO L609 KONFO VETEK NAT J10 ADLOD N134 SALAM N134 RALNA RALNA2A"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"SVA",
+              "types":["B77W"]
+            }
+          ],
+          "destination": "OEJN",
+          "exit": "GREKI",
+          "route": "GREKI JUDDS CAM TAFFY N739A HOIST 5700N/05000W 6000N/04000W 6000N/03000W 6000N/02000W ADODO AMTAP LAGAV NEXUS EVTAR N96 ROKAN M982 TOPPA TIVUN BOMBI NOMBO ERKIR VEKEN NERRA KOFER DIMIS SALUN N705 BOPIX N710 TAKRI P751 LXR M999 DASPA M999 MUVOL"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"SVA",
+              "types":["B77W"]
+            }
+          ],
+          "destination": "OERK",
+          "exit": "BETTE",
+          "route": "BETTE ACK TUSKY N159A PORTI 4700N/05000W 4800N/04000W 4800N/03000W 4700N/02000W 4600N/01500W SIVIR RIVAK GALOF PECNO VALKU TIS UP860 BALSI UY11 ROBEX LAPRI MOGBO SOVAN IPKAM RUTOM SALUN N705 MMA TAKRI M720 FYM M872 WEJ L604 GAS G662 SIVIS"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"SAS",
+              "types":["A333"]
+            }
+          ],
+          "destination": "EKCH",
+          "exit": "BETTE",
+          "route": "BETTE ACK KANNI PORTI 4700N/05000W 5000N/04000W 5200N/03000W 5400N/02000W VENER KOKIB NIBOG MAC SURAT PETIL TESPI"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"UZB",
+              "types":["B788"]
+            }
+          ],
+          "destination": "UTTT",
+          "exit": "MERIT",
+          "route": "MERIT HFD PUT TAFFY N827A BOKTO 6200N/05000W 6600N/04000W 6800N/03000W 6900N/02000W 7000N/00000W OMEXA PERKE GATRI N152 UTITA N156 GIPEN L258 DIBAB M61 AGNOG P977 GUGNI L93 OKAMO L991 REDKI P136 KUPOM N984 URUSU L162 INKUM L163 DODUR DODUR1Z"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"BEL",
+              "types":["A333"]
+            }
+          ],
+          "destination": "EBBR",
+          "exit": "BETTE",
+          "route": "BETTE ACK KANNI N79A SUPRY NATV 5100N/03000W NATV 5200N/02000W NATV XETBO CRK NORLA PEWBI OXLOW M140 DVR L18 VABIK Q70 KOK"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"RZO",
+              "types":["A20N","A21N"]
+            }
+          ],
+          "destination": "LPPD",
+          "exit": "BETTE",
+          "route": "BETTE ACK VITOL 4200N/06000W 4100N/05000W 3900N/04000W 3800N/03000W SOMUL"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"EDV",
+              "types":["CRJ9"]
+            },
+            {
+              "icao":"RPA",
+              "types":["E75L","E75S"]
+            }
+          ],
+          "destination": "KDCA",
+          "exit": "RBV",
+          "route": "RBV Q430 COPES Q75 MXE CLIPR3"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"RPA",
+              "types":["E75L"]
+            },
+            {
+              "icao":"DAL",
+              "types":["BCS1"]
+            },
+            {
+              "icao":"EJA"
+            },
+            {
+              "icao":"JBU",
+              "types":["A320", "E190"]
+            }
+          ],
+          "destination": "KBOS",
+          "exit": "MERIT",
+          "route": "MERIT ROBUC3"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"AAL",
+              "types":["B738"]
+            },
+            {
+              "icao":"DAL",
+              "types":["B739"]
+            },
+            {
+              "icao":"JBU",
+              "types":["A21N","A320","A321"]
+            }
+          ],
+          "destination": "MDPC",
+          "exit": "SHIPP",
+          "route": "SHIPP Y490 OHRYN Y490 ROLLE ATUGI JNFOX L454 GRAMN L454 LUCTI L454 MNDEZ FIPEK BETIR"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"AAL",
+              "types":["B38M","B772"]
+            },
+            {
+              "icao":"DAL",
+              "types":["A21N","B763"]
+            },
+            {
+              "icao":"JBU",
+              "types":["A321"]
+            }
+          ],
+          "destination": "KPHX",
+          "exit": "RBV",
+          "route": "RBV Q430 AIR J110 STL BUM ICT LBL FTI BUKKO ZUN EAGUL6"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"AAL",
+              "types":["B772"]
+            },
+            {
+              "icao":"DAL",
+              "types":["B764"]
+            },
+            {
+              "icao":"NOS",
+              "types":["B789"]
+            },
+            {
+              "icao":"UAE",
+              "types":["A388"]
+            }
+          ],
+          "destination": "LIMC",
+          "exit": "BETTE",
+          "route": "BETTE ACK WHALE NANSO N49C RAFIN 4500N/05000W 4800N/04000W 5000N/03000W 5100N/02000W DINIM ELSOX ARKIL LIZAD JSY ARSUK RESMI UN491 LUVAL SHARA DEVDI RIPUS GERSA SOSON DEGAD Z424 RIXUV"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"AAL",
+              "types":["A321"]
+            },
+            {
+              "icao":"DAL",
+              "types":["B763","B764"]
+            },
+            {
+              "icao":"EJA"
+            },
+            {
+              "icao":"JBU",
+              "types":["A321","A21N"]
+            }
+          ],
+          "destination": "KLAX",
+          "exit": "COATE",
+          "route": "COATE Q436 RAAKK FARGN YXU OMRAK Q935 HOCKE BAE OVR NUCDI KAWWA MCK HARPL PROMT PIIXR HAKMN ANJLL4"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"AAL",
+              "types":["B788"]
+            },
+            {
+              "icao": "AFR",
+              "types":["A332","A359", "B77W"]
+            },
+            {
+              "icao":"JBU",
+              "types":["A21N"]
+            }
+          ],
+          "destination": "LFPG",
+          "exit": "BETTE",
+          "route": "BETTE ACK WHALE N49C NANSO N49C RAFIN NATW DINIM NATW ELSOX GAPLI ANNET UM25 UVSUV UM25 INGOR UM25 LUKIP LUKIP9W"
+        },
+        {
+          "airlines": [
+            {
+              "icao":"AAL",
+              "types":["B772","B77W"]
+            },
+            {
+              "icao": "BAW",
+              "types":["B772","B77W","B78X"]
+            },
+            {
+              "icao":"DAL",
+              "types":["A332","B764"]
+            },
+            {
+              "icao":"JBU",
+              "types":["A21N"]
+            },
+            {
+              "icao": "VIR",
+              "types":["A339","A35K"]
             }
           ],
           "destination": "EGLL",
           "exit": "MERIT",
-          "route": "MERIT HFD PUT WITCH ALLEX N379A ALLRY NATU SOVED LUTOV KELLY L10 WAL UY53 NUGRA"
+          "route": "MERIT HFD PUT EBONY N381B ALLRY 5100N/05000W 5300N/04000W 5500N/03000W 5400N/02000W MALOT GISTI MOMIN DAP LIFFY UL975 MALUD Q38 NUGRA"
         },
         {
           "airlines": [
             {
-              "fleet": "long",
-              "icao": "BAW"
+              "icao": "VIR",
+              "types":["A333","A339"]
+            },
+            {
+              "icao":"EIN",
+              "types":["A333"]
             }
           ],
           "destination": "EGCC",
           "exit": "BETTE",
-          "route": "BETTE ACK KANNI N139A PORTI 4700N/05000W 5000N/04000W 5200N/03000W 5300N/02000W MALOT GISTI PELIG BOFUM Q37 MALUD MALUD1M"
+          "route": "BETTE ACK BRADD N141D PORTI NATU 5300N/02000W NATU GISTI BOFUM Q37 BAVUD Q37 MALUD"
         },
         {
           "airlines": [
             {
-              "fleet": "long",
-              "icao": "THY"
+              "icao": "THY",
+              "types":["A333","B77W"]
             }
           ],
           "destination": "LTFM",
-          "exit": "MERIT",
-          "route": "MERIT HFD PUT EBONY ALLRY 5100N/05000W 5300N/04000W 5500N/03000W 5600N/02000W PIKIL SOVED NIBOG BELOX L603 LAMSO PETIK NOMKA OMELO GOLOP KOZLI ROMIS PITOK BADOR RONBU BUVAK RIXEN"
-        },
-        {
-          "airlines": [
-            {
-              "icao": "VIR"
-            },
-            {
-              "fleet": "long",
-              "icao": "FDX"
-            }
-          ],
-          "destination": "EGPH",
           "exit": "BETTE",
-          "route": "BETTE ACK TUSKY N291A IBERG NATW NEBIN NATW OLGON MOLAK BRUCE L602 CLYDE STIRA"
+          "route": "BETTE ACK DOVEY 4100N/06000W 4200N/05000W 4300N/04000W 4600N/03000W 4700N/02000W 4800N/01500W TAMEL EVBAK RATKA LARLA GANTO JSY TURDU TADUP TEPRI UN491 LUVAL BEGAR TRA GAMSA GEDSO PODET VBA ETIDA T390 RILEX"
         },
         {
           "airlines": [
@@ -789,123 +1417,196 @@
             }
           ],
           "destination": "EPWA",
-          "exit": "GREKI",
-          "route": "GREKI JUDDS MARTN TOPPS N499A RIKAL 5300N/05000W 5500N/04000W 5700N/03000W 5700N/02000W GOMUP GINGA TIR REKNA PETIL BAVTA BAKLI KEKOV GOSOT NASOK N195 SORIX"
+          "exit": "MERIT",
+          "route": "MERIT HFD PUT BRADD N141D PORTI 4700N/05000W 5000N/04000W 5200N/03000W 5300N/02000W MALOT GISTI LIFFY UL975 WAL M16 DOLAS L603 LAMSO PETIK AMSAN L980 SAS L986 EMBOX GOVEN L979 KELOD L980 ADVAB P150 BIMPA"
         },
         {
           "airlines": [
             {
-              "fleet": "long",
-              "icao": "AAL"
+              "icao": "AAL",
+              "types":["B772"]
             },
             {
-              "fleet": "long",
-              "icao": "IBE"
+              "icao":"DAL",
+              "types":["B764"]
+            },
+            {
+              "icao": "IBE",
+              "types":["A332","A333"]
             }
           ],
           "destination": "LEMD",
-          "exit": "BETTE",
-          "route": "BETTE ACK VITOL N189A NICSO 4800N/05000W 4900N/04000W 4900N/03000W 4700N/02000W PASAS STG DESAT UN733 ZMR"
+          "exit": "SHIPP",
+          "route": "SHIPP Y487 ISLES JENYY JOBOC 4100N/06000W 4300N/05000W 4300N/04000W 4300N/03000W 4300N/02000W ARMED EPOPO ADORO L155 ZMR"
         },
         {
           "airlines": [
             {
-              "fleet": "long",
-              "icao": "KLM"
+              "icao":"DAL",
+              "types":["A332","A339"]
+            },
+            {
+              "icao":"JBU",
+              "types":["A21N"]
+            },
+            {
+              "icao": "KLM",
+              "types":["B772", "B77W", "B78X"]
             }
           ],
           "destination": "EHAM",
           "exit": "BETTE",
-          "route": "BETTE ACK KANNI N317A ELSIR NATY DOGAL NATY BEXET BOYNE DIBAL L603 LAMSO"
+          "route": "BETTE ACK KANNI N79A SUPRY NATV LIMRI NATV XETBO LIFFY UL975 WAL M16 DOLAS L603 LAMSO"
         },
         {
           "airlines": [
             {
-              "fleet": "a359",
-              "icao": "DLH"
+              "icao": "DLH",
+              "types":["A343","A346"]
             },
             {
-              "icao": "GEC"
+              "icao":"DAL",
+              "types":["A339"]
+            },
+            {
+              "icao":"BOX",
+              "types":["B772","B77L"]
+            },
+            {
+              "icao": "CFG",
+              "types":["A339"]
+            },
+            {
+              "icao":"SIA",
+              "types":["B77W"]
             }
           ],
           "destination": "EDDF",
-          "exit": "BETTE",
-          "route": "BETTE ACK BRADD N255A JOOPY NATX MALOT NATX GISTI UNBEG SHA SLANY UL9 KONAN UL607 SPI T180 TOBOP T180 NIVNU T180 UNOKO UNOK3A"
+          "exit": "MERIT",
+          "route": "MERIT HFD PUT BOS TUSKY N201B NICSO NATT DOGAL NATT BEXET LIFFY UL975 WAL M16 DOLAS NAVPI NOLRU DIXAT DIXAT1A"
         },
         {
           "airlines": [
             {
-              "fleet": "long",
-              "icao": "IBE"
+              "icao": "IBE",
+              "types":["A332"]
+            },
+            {
+              "icao":"DAL",
+              "types":["B764"]
             }
           ],
           "destination": "LEBL",
-          "exit": "HAPIE",
-          "route": "HAPIE YAHOO DOVEY 4200N/06000W 4200N/05000W 4300N/04000W 4400N/03000W 4400N/02000W MUDOS STG SUSOS UN725 YAKXU UN725 LOBAR"
+          "exit": "SHIPP",
+          "route": "SHIPP Y487 ISLES SLATN SOORY 4000N/05000W 4200N/04000W 4400N/03000W 4400N/02000W MUDOS STG SUSOS N725 YAKXU N725 LOBAR"
         },
         {
           "airlines": [
             {
-              "fleet": "long",
-              "icao": "AAL"
+              "icao":"DAL",
+              "types":["A339"]
+            },
+            {
+              "icao": "ITY",
+              "types":["A332","A339"]
             }
           ],
           "destination": "LIRF",
           "exit": "BETTE",
-          "route": "BETTE ACK BRADD N255A JOOPY NATX MALOT NATX GISTI SLANY UL9 BIG L15 MOTOX UL15 RANUX UL15 NEBAX LASAT DEVDI ODINA SRN EKPAL Q705 XIBIL XIBIL3A"
+          "route": "BETTE ACK BRADD N141D PORTI NATU MALOT NATU GISTI BIBLA ARKIL DOLUR TERKU KORER LEMKA BEBIX LERGA TOZOT UT183 OTROT UM728 KOLON RAPUR RATAP BTA MOULE XOPTA ELB ELKAP ELKAP3A"
         },
         {
           "airlines": [
             {
-              "fleet": "long",
-              "icao": "FIN"
+              "icao":"DAL",
+              "types":["A339"]
+            },
+            {
+              "icao": "ITY",
+              "types":["A332","A339"]
+            }
+          ],
+          "destination": "LIRF",
+          "exit": "SHIPP",
+          "route": "SHIPP Y487 ISLES JENYY DOVEY NATX ATSUR GAPLI LIZAD JSY ARSUK RESMI UN491 LUVAL SHARA DEVDI ODINA EKPAL TINKU XIBIL"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "FIN",
+              "types":["A333"]
             }
           ],
           "destination": "EFHK",
-          "exit": "GREKI",
-          "route": "GREKI JUDDS MARTN DANOL N481A SAXAN 5300N/05000W 5600N/04000W 5900N/03000W 6100N/02000W 6200N/01000W IPTON UXADA Y349 AMROT Y362 LAKUT"
+          "exit": "MERIT",
+          "route": "MERIT HFD PUT BAREE N879A YDP N879A URTAK 6200N/05000W 6430N/04000W 6600N/03000W 6700N/02000W 6700N/01000W 6600N/00000E ROSBO NEMDA UXADA Y349 AMROT Y362 LAKUT"
         },
         {
           "airlines": [
             {
-              "fleet": "long",
-              "icao": "EIN"
+              "icao":"DAL",
+              "types":["B764"]
+            },
+            {
+              "icao": "EIN",
+              "types":["A21N","A333"]
             }
           ],
           "destination": "EIDW",
-          "exit": "MERIT",
-          "route": "MERIT HFD PUT BOS TUSKY N321A ELSIR NATV RESNO NATV NETKI OLAPO OLAPO3X"
+          "exit": "BETTE",
+          "route": "BETTE ACK BRADD N141D PORTI NATU MALOT NATU GISTI OSGAR OSGAR4L"
         },
         {
           "airlines": [
             {
-              "fleet": "long",
-              "icao": "AAL"
+              "icao": "AAL",
+              "types":["B38M"]
             },
             {
-              "fleet": "long",
-              "icao": "AMX"
+              "icao":"DAL",
+              "types":["B752"]
+            },
+            {
+              "icao": "AMX",
+              "types":["B38M","B789"]
             }
           ],
           "destination": "MMMX",
           "exit": "RBV",
-          "route": "RBV Q430 COPES Q75 GVE LYH COLZI AWYAT IPTAY CHOPZ MGM SJI TBD M575 KENGS M345 AXEXO UM345 PAZ UT154 ENAGA ENAGA2A"
+          "route": "RBV Q430 COPES Q75 GSO Q75 ENEME EVANZ Q109 KNOST M215 MINOW M580 IRDOV UM580 RIBET UT101 ENAGA ENAGA3A"
         },
         {
           "airlines": [
             {
-              "fleet": "long",
-              "icao": "AAL"
+              "icao": "AAL",
+              "types":["B789"]
+            },
+            {
+              "icao":"DAL",
+              "types":["B764"]
+            },
+            {
+              "icao":"TAM",
+              "types":["B789"]
             }
           ],
           "destination": "SBGR",
           "exit": "SHIPP",
-          "route": "SHIPP Y492 SQUAD DARUX L459 KEEKA L329 ZPATA UL329 KORTO ETATA UP535 MOMSO UZ24 DOLVI UL452 GELVA UZ6 ISOPI UZ6 NIMKI UZ38 VUNOX VUNOX1A"
+          "route": "SHIPP Y487 KINGG KINER L461 PJM 1500N/05600W 1000N/05400W REKIM UN674 OIA SINOL UPOMO MUGVI PULUV UZ2 MULUV UZ38 VUNOX SANPA1A"
         },
         {
           "airlines": [
             {
-              "icao": "AAL"
+              "icao": "DAL",
+              "types":["A21N","B739"]
+            },
+            {
+              "icao":"FFT",
+              "types":["A20N","A21N","A321"]
+            },
+            {
+              "icao":"JBU",
+              "types":["A320","A321"]
             }
           ],
           "destination": "TJSJ",
@@ -915,135 +1616,178 @@
         {
           "airlines": [
             {
-              "icao": "AAL"
+              "icao": "AAL",
+              "types":["A319","B738"]
             },
             {
-              "icao": "DAL"
-            },
-            {
-              "icao": "JBU"
+              "icao": "DAL",
+              "types":["A319"]
             }
           ],
           "destination": "TXKF",
           "exit": "SHIPP",
-          "route": "SHIPP Y487 KINGG KINER L461 BOVIC MOMOM1"
+          "route": "SHIPP Y492 SQUAD DARUX L459 DASER MOMOM1"
         },
         {
           "airlines": [
             {
-              "icao": "JBU"
+              "icao":"DAL",
+              "types":["B739"]
             },
             {
-              "fleet": "b738",
-              "icao": "BWA"
+              "icao": "JBU",
+              "types":["A320","A321"]
+            },
+            {
+              "icao": "BWA",
+              "types":["B38M"]
             }
           ],
           "destination": "MKJP",
           "exit": "WAVEY",
-          "route": "WAVEY EMJAY J174 SWL CEBEE WETRO SKARP IDOLS RROOO Y323 CARPX Y307 ENAMO NEFTU UP525 EMABU UA301 IMADI SAVEM"
+          "route": "WAVEY EMJAY Q167 ZJAAY KALDA TUGGR Q101 SKARP IDOLS RROOO Y323 CARPX Y307 ENAMO NEFTU UP525 EMABU UA301 IMADI SAVEM KEYNO3"
         },
         {
           "airlines": [
             {
-              "icao": "AAL"
+              "icao": "AAL",
+              "types":["A319"]
+            },
+            {
+              "icao":"DAL",
+              "types":["B752"]
             }
           ],
           "destination": "TIST",
           "exit": "SHIPP",
-          "route": "SHIPP Y492 SQUAD DARUX L456 HANCY L456 THANK JETSS"
+          "route": "SHIPP Y492 SQUAD DARUX L456 THANK JETSS"
         },
         {
           "airlines": [
             {
-              "icao": "AAL"
+              "icao": "AAL",
+              "types":["B38M"]
             },
             {
-              "icao": "DAL"
+              "icao": "DAL",
+              "types":["B739"]
+            },
+            {
+              "icao":"JBU",
+              "types":["A320"]
             }
           ],
           "destination": "TAPA",
           "exit": "SHIPP",
-          "route": "SHIPP Y487 KINGG KINER L461 BOVIC PIREX L462 ANU"
+          "route": "SHIPP Y492 SQUAD DARUX L459 DASER PIREX L462 KOZIK L462 ANU"
         },
         {
           "airlines": [
             {
-              "icao": "ATN"
+              "icao": "DAL",
+              "types":["BCS1"]
+            },
+            {
+              "icao":"JBU",
+              "types":["A320","BCS3"]
+            },
+            {
+              "icao":"RPA",
+              "types":["E75L"]
             }
           ],
           "destination": "KJAX",
           "exit": "WAVEY",
-          "route": "WAVEY EMJAY J174 ORF J121 CHS ESENT LUNNI1"
+          "route": "WAVEY EMJAY Q167 ZJAAY Q97 SAWED Q64 GUILD Q409 SESUE ESENT LUNNI1"
         },
         {
           "airlines": [
             {
-              "icao": "UPS"
+              "icao": "EDV",
+              "types":["CRJ9"]
             },
             {
-              "icao": "AAL"
+              "icao": "SKW",
+              "types":["E75L"]
+            },
+            {
+              "icao":"SCX",
+              "types":["B738"]
             }
           ],
           "destination": "KMSP",
           "exit": "GAYEL",
-          "route": "GAYEL Q818 WOZEE NOSIK Q812 ZOHAN IDIOM MUSCL3"
+          "route": "GAYEL Q818 WOZEE NOSIK Q812 ZOHAN CEWDA MUSCL3"
         },
         {
           "airlines": [
             {
-              "fleet": "short",
-              "icao": "DAL"
+              "icao": "DAL",
+              "types":["B752"]
+            },
+            {
+              "icao":"EDV",
+              "types":["CRJ9"]
             }
           ],
           "altitude": 22000,
           "destination": "KIAD",
           "exit": "RBV",
-          "route": "RBV HYPER8"
+          "route": "RBV HYPER9"
         },
         {
           "airlines": [
             {
-              "icao": "AAL"
+              "icao": "AAL",
+              "types":["A319","B738"]
+            },
+            {
+              "icao":"EDV",
+              "types":["CRJ9"]
+            },
+            {
+              "icao":"RPA",
+              "types":["E75L"]
             }
           ],
           "destination": "KCLT",
           "exit": "RBV",
-          "route": "RBV Q430 COPES Q75 GVE LYH CHSLY5"
+          "route": "RBV Q430 COPES Q75 GVE AIROW CHSLY6"
         },
         {
           "airlines": [
             {
               "icao": "EJA"
+            },
+            {
+              "icao": "LXJ"
             }
           ],
           "destination": "KTEB",
           "exit": "DIXIE",
-          "route": "DIXIE V276 RBV V249 SBJ"
+          "route": "DIXIE T438 RBV V249 SBJ"
         },
         {
           "airlines": [
             {
-              "icao": "EJA"
-            }
-          ],
-          "destination": "KPHL",
-          "exit": "DIXIE",
-          "route": "DIXIE V16 VCN V184 OOD"
-        },
-        {
-          "airlines": [
+              "icao": "AAL",
+              "types":["B38M","B738"]
+            },
             {
-              "icao": "EJA"
-            }
-          ],
-          "destination": "KTEB",
-          "exit": "WHITE",
-          "route": "WHITE V276 RBV V249 SBJ"
-        },
-        {
-          "airlines": [
+              "icao":"EDV",
+              "types":["CRJ9"]
+            },
             {
-              "icao": "AAL"
+              "icao":"JBU",
+              "types":["BCS3"]
+            },
+            {
+              "icao":"RPA",
+              "types":["E75L"]
+            },
+            {
+              "icao":"SKW",
+              "types":["E75L"]
             }
           ],
           "destination": "KORD",
@@ -1053,7 +1797,12 @@
         {
           "airlines": [
             {
-              "icao": "JBU"
+              "icao": "EDV",
+              "types":["CRJ9"]
+            },
+            {
+              "icao":"DAL",
+              "types":["A319"]
             }
           ],
           "destination": "KDTW",
@@ -1063,99 +1812,150 @@
         {
           "airlines": [
             {
-              "icao": "JBU"
+              "icao": "JBU",
+              "types":["A21N","A320","A321"]
+            },
+            {
+              "icao":"DAL",
+              "types":["A321"]
             }
           ],
           "destination": "KFLL",
           "exit": "WAVEY",
-          "route": "WAVEY EMJAY J174 SWL CEBEE WETRO CHIEZ Y291 MAJIK CUUDA2"
+          "route": "WAVEY EMJAY Q167 ZJAAY KALDA Q133 CHIEZ Y291 MAJIK CUUDA3"
         },
         {
           "airlines": [
             {
-              "icao": "JBU"
+              "icao":"AAL",
+              "types":["A321","B738"]
+            },
+            {
+              "icao":"DAL",
+              "types":["A21N","B739","B752","B763"]
+            },
+            {
+              "icao":"FFT",
+              "types":["A21N"]
+            },
+            {
+              "icao": "JBU",
+              "types":["A21N","A321"]
             }
           ],
           "destination": "KLAS",
           "exit": "GAYEL",
-          "route": "GAYEL Q818 WOZEE RUBKI ASP TVC KP87I FSD KP81C BFF KD60S HVE GGAPP CHOWW2"
+          "route": "GAYEL Q818 WOZEE SLLAP KG81O HOMNY KG81K KP81I KP81G HUTEP BFF CYS HVE GGAPP CHOWW3"
         },
         {
           "airlines": [
             {
-              "icao": "AAL"
+              "icao": "AAL",
+              "types":["B38M","B738"]
+            },
+            {
+              "icao":"DAL",
+              "types":["A21N","A321","B739"]
+            },
+            {
+              "icao":"JBU",
+              "types":["A320","BCS3"]
             }
           ],
           "destination": "KMIA",
           "exit": "WAVEY",
-          "route": "WAVEY EMJAY J174 SWL CEBEE WETRO SKARP Y313 HOAGG BNFSH2"
+          "route": "WAVEY EMJAY Q167 ZJAAY Q97 DEBRL CSTAL2"
         },
         {
           "airlines": [
             {
-              "icao": "DAL"
+              "icao": "EDV",
+              "types":["CRJ9"]
+            },
+            {
+              "icao":"JBU",
+              "types":["BCS3"]
+            },
+            {
+              "icao":"RPA",
+              "types":["E75L","E75S"]
             }
           ],
           "destination": "KRDU",
           "exit": "WAVEY",
-          "route": "WAVEY EMJAY J174 WARNN ZJAAY TAQLE1"
+          "route": "WAVEY EMJAY Q167 ZJAAY TAQLE2"
         },
         {
           "airlines": [
             {
-              "icao": "JBU"
+              "icao":"DAL",
+              "types":["A321","B739"]
+            },
+            {
+              "icao":"FFT",
+              "types":["A21N"]
+            },
+            {
+              "icao": "JBU",
+              "types":["A320","A321","BCS3"]
             }
           ],
           "destination": "KMCO",
           "exit": "WAVEY",
-          "route": "WAVEY EMJAY J174 ORF J121 CHS IGARY Q85 LPERD GTOUT1"
+          "route": "WAVEY EMJAY Q167 KALDA Q131 WAALT Y289 BAHAA HIBAC ALYNA4"
         },
         {
           "airlines": [
             {
-              "fleet": "b752",
-              "icao": "FDX"
-            },
-            {
-              "fleet": "b763",
-              "icao": "FDX"
+              "icao": "FDX",
+              "types":["B763","MD11"]
             }
           ],
           "destination": "KMEM",
           "exit": "RBV",
-          "route": "RBV Q430 SAAME J6 HVQ Q68 BWG BLUZZ3"
+          "route": "RBV Q430 SAAME J6 HVQ Q68 RAMRD BLUZZ5"
         },
         {
           "airlines": [
             {
-              "fleet": "jfk",
-              "icao": "WJA"
+              "icao": "EDV",
+              "types":["CRJ9"]
             },
             {
-              "icao": "JBU"
+              "icao": "JBU",
+              "types":["A320","BCS3"]
             }
           ],
           "altitude": 18000,
           "destination": "KBUF",
           "exit": "NEION",
-          "route": "NEION J223 CORDS J132 ULW BENEE"
+          "route": "NEION Q232 STUBN BENEE"
         },
         {
           "airlines": [
             {
-              "fleet": "short",
-              "icao": "DAL"
+              "icao": "EDV",
+              "types":["CRJ9"]
+            },
+            {
+              "icao":"RPA",
+              "types":["E75L","E75S"]
             }
           ],
           "altitude": 26000,
           "destination": "KORF",
           "exit": "WAVEY",
-          "route": "WAVEY EMJAY J174 SWL CCV"
+          "route": "WAVEY EMJAY Q167 ZJAAY CCV"
         },
         {
           "airlines": [
             {
-              "icao": "UPS"
+              "icao": "JBU",
+              "types":["BCS3"]
+            },
+            {
+              "icao":"RPA",
+              "types":["E75S","E75L"]
             }
           ],
           "destination": "KBNA",
@@ -1165,41 +1965,25 @@
         {
           "airlines": [
             {
-              "icao": "JBU"
+              "icao": "JBU",
+              "types":["A320","BCS3"]
+            },
+            {
+              "icao":"DAL",
+              "types":["A319","B738"]
+            },
+            {
+              "icao":"LXJ"
             }
           ],
           "destination": "KPBI",
           "exit": "WAVEY",
-          "route": "WAVEY EMJAY J174 SWL CEBEE WETRO YLEEE ZILLS Y289 DULEE CLMNT2"
+          "route": "WAVEY EMJAY Q167 ZJAAY Q97 JEVED ROKKT CPTAN3"
         },
         {
           "airlines": [
             {
-              "fleet": "short",
-              "icao": "DAL"
-            }
-          ],
-          "altitude": 9000,
-          "destination": "KPVD",
-          "exit": "BDR",
-          "route": "BDR CARLD V188 GON PVD"
-        },
-        {
-          "airlines": [
-            {
-              "fleet": "jfk",
-              "icao": "WJA"
-            }
-          ],
-          "altitude": 12000,
-          "destination": "KABE",
-          "exit": "COATE",
-          "route": "COATE V116 LVZ V613 FJC"
-        },
-        {
-          "airlines": [
-            {
-              "icao": "JBU"
+              "icao": "EDV"
             }
           ],
           "destination": "KBGR",
@@ -1209,34 +1993,42 @@
         {
           "airlines": [
             {
-              "icao": "UPS"
+              "icao":"ASA",
+              "types":["B39M","B739"]
             },
             {
-              "icao": "JBU"
-            },
-            {
-              "icao": "DAL"
+              "icao": "DAL",
+              "types":["A21N","A339"]
             }
           ],
           "destination": "KSEA",
           "exit": "GAYEL",
-          "route": "GAYEL Q818 WOZEE SSM YQT VBI YWG LIVBI DUKPO FAREN YDR VLN J500 YYN MEDAK ROPLA YXC GLASR1"
+          "route": "GAYEL Q818 WOZEE NOSIK ZOHAN CESNA EXHOS MLP GLASR3"
         },
         {
           "airlines": [
             {
-              "icao": "DAL"
+              "icao": "DAL",
+              "types":["A319","A320"]
+            },
+            {
+              "icao":"JBU",
+              "types":["A320"]
             }
           ],
           "destination": "KMSY",
           "exit": "RBV",
-          "route": "RBV Q430 BYRDD J48 MOL FLASK REAVS ODF THRSR GRGIA SJI SLIDD2"
+          "route": "RBV Q430 BYRDD J48 CSN FANPO Q40 NIOLA MERDN TRSSH1"
         },
         {
           "airlines": [
             {
-              "fleet": "short",
-              "icao": "DAL"
+              "icao":"EDV",
+              "types":["CRJ9"]
+            },
+            {
+              "types":["E75S","E75L"],
+              "icao": "RPA"
             }
           ],
           "destination": "KPIT",
@@ -1246,10 +2038,16 @@
         {
           "airlines": [
             {
-              "icao": "JBU"
+              "icao": "EDV",
+              "types":["CRJ9"]
             },
             {
-              "icao": "ATN"
+              "icao": "JBU",
+              "types":["BCS3"]
+            },
+            {
+              "icao":"RPA",
+              "types":["E75L","E75S"]
             }
           ],
           "destination": "KCLE",
@@ -1259,7 +2057,16 @@
         {
           "airlines": [
             {
-              "icao": "WJA"
+              "icao":"EDV",
+              "types":["CRJ9"]
+            },
+            {
+              "icao": "JBU",
+              "types":["BCS3"]
+            },
+            {
+              "icao":"RPA",
+              "types":["E75L"]
             }
           ],
           "destination": "KSYR",
@@ -1271,21 +2078,42 @@
             {
               "fleet": "long",
               "icao": "CAL"
+            },
+            {
+              "icao":"GTI",
+              "types":["B77L", "B744"]
+            },
+            {
+              "icao":"KAL",
+              "types":["B77L"]
+            },
+            {
+              "icao":"CAO",
+              "types":["B77L"]
             }
           ],
           "destination": "PANC",
           "exit": "GAYEL",
-          "route": "GAYEL Q812 ARRKK Q812 SYR TULEG YYB SPALD YTL YGX IKLIX YHY 6100N/13000W JAGIT NCA13 TMSON PTERS3"
+          "route": "GAYEL Q812 SYR TULEG OXASA 4700N/08000W 5300N/09000W 5730N/10000W 6030N/11000W 6200N/12000W 6200N/13000W OMSUN NCA20 TIEKL PTERS3"
         },
         {
           "airlines": [
             {
-              "icao": "WJA"
+              "icao": "JBU",
+              "types":["BCS3"]
+            },
+            {
+              "icao":"RPA",
+              "types":["E75L"]
+            },
+            {
+              "icao":"EDV",
+              "types":["CRJ9"]
             }
           ],
           "destination": "KROC",
-          "exit": "HAAYS",
-          "route": "HAAYS J223 CORDS ULW GIBBE"
+          "exit": "NEION",
+          "route": "NEION Q232 STUBN GIBBE"
         },
         {
           "airlines": [
@@ -1300,10 +2128,16 @@
         {
           "airlines": [
             {
-              "icao": "AAL"
+              "icao": "RPA",
+              "types":["E75L"]
             },
             {
-              "icao": "ACA"
+              "icao": "JZA",
+              "types":["E75L", "E75S"]
+            },
+            {
+              "icao":"EDV",
+              "types":["CRJ9"]
             }
           ],
           "destination": "CYYZ",
@@ -1313,50 +2147,46 @@
         {
           "airlines": [
             {
-              "icao": "AAL"
-            },
-            {
-              "icao": "ACA"
+              "icao": "JZA",
+              "types":["E75L", "E75S"]
             }
           ],
           "destination": "CYUL",
           "exit": "GREKI",
-          "route": "GREKI JUDDS CAM PBERG CARTR4"
+          "route": "GREKI JUDDS CAM JASDU PBERG CARTR5"
         },
         {
           "airlines": [
             {
-              "icao": "AAL"
-            },
-            {
-              "icao": "ACA"
+              "icao": "WJA",
+              "types":["B38M", "B737"]
             }
           ],
           "destination": "CYYC",
           "exit": "GAYEL",
-          "route": "GAYEL Q818 WOZEE ASP RIMBE WIEDS 4930N/10000W GUDOG PIKLA BIRKO5"
+          "route": "GAYEL Q818 WOZEE ASP TVC FAR ISN BEVEL MOBEK EBGAL7"
         },
         {
           "airlines": [
             {
-              "fleet": "jfk",
+              "types":["A359", "B77W"],
               "icao": "QTR"
             }
           ],
-          "destination": "OTBD",
-          "exit": "BETTE",
-          "route": "BETTE ACK WHALE N193A NICSO NATY ELSOX MAPAG LESLU L180 MERLY M140 DVR UL9 KONAN UL607 KOK MATUG BOMBI DETEV INBED LAMSI STEIN INVED RASUB RIXEN UA17 BAG UL614 EZS UT36 ULTED UT301 BOTAS UT301 DEPSU UT301 DURSI UT301 KAVAM UT301 MIDSI R659 VEDED R659 VELAM Z225 BAYAN"
+          "destination": "OTHH",
+          "exit": "SHIPP",
+          "route": "SHIPP Y487 ISLES JENYY DOVEY 4200N/06000W 4400N/05000W 4700N/04000W 4900N/03000W 5000N/02000W SOMAX ATSUR RATKA LARLA OTOFE UN491 EKRAS UN491 LUVAL BEGAR TRA GAMSA UMVEG BERTA OKLOP ETIDA Q27 ARTAT UP975 ERGUN UL124 EVSAS UM688 RATVO UM688 KEDIM SISIN UM688 SIDAD P975 LONOS L703 GOGRA L703 KOBOK L703 GIRMO L703 HAYYA"
         },
         {
           "airlines": [
             {
-              "fleet": "jfk",
+              "types":["B789"],
               "icao": "ELY"
             }
           ],
           "destination": "LLBG",
-          "exit": "HAPIE",
-          "route": "HAPIE YAHOO DOVEY 4200N/06000W 4400N/05000W 4700N/04000W 4900N/03000W 5000N/02000W SOMAX ATSUR TAKAS ALUTA KORER UM616 TUPAR DIDRU BEBIX VALKU LERGA TOZOT UT183 OTROT UM728 DOKAR SUNEV LAT SIPRO PAPIZ PINDO LINRO UL52 VAXOS UN134 VANZA PIKOG L609 ZUKKO AMMOS1C"
+          "exit": "SHIPP",
+          "route": "SHIPP Y487 ISLES JENYY JOBOC NATY NASBA TAKAS ALUTA KORER LEMKA BEBIX VALKU TIS UP860 BALSI UY11 ROBEX LAPRI MOGBO NIKOL LASDU PINDO NEVRA AKINA VANZA PIKOG L609 ZUKKO"
         },
         {
           "airlines": [
@@ -1366,23 +2196,24 @@
             }
           ],
           "destination": "OMDB",
-          "exit": "GREKI",
-          "route": "GREKI JUDDS BAF KB87E MIILS N563A NEEKO 5500N/05000W 6000N/04000W 6300N/03000W 6400N/02000W 6300N/01000W GUNPA RASVI KOSEB PEROM BINKA ROVEK KELEL BADOR ARGES ARTAT UP975 UNVUS UP975 EZS UG8 OTKEP UM688 RATVO UM688 SIDAD P975 SESRU M677 RABAP M677 IVIVI M677 UKNEP M677 DEGSO M677 OBNET M677 LUDAM M677 VUTEB"
+          "exit": "SHIPP",
+          "route": "SHIPP Y487 ISLES JENYY DOVEY NATX 4400N/05000W NATX ATSUR GAPLI LIZAD JSY TURDU TADUP TEPRI UN491 LUVAL BEGAR TRA GAMSA GEDSO VALLU RIGMU KOTUS MAVIT RASUB EXIGA ARTAT UP975 ERGUN UL124 EVSAS UM688 RATVO UM688 ULDUR UM688 SIDAD P975 SESRU M677 RETEL M677 RABAP M677 UKNEP M677 VUTEB"
         },
         {
           "airlines": [
             {
-              "icao": "CPA"
+              "icao": "CPA",
+              "types": ["A359", "A35K", "B748", "B77W"]
             }
           ],
           "destination": "VHHH",
-          "exit": "GREKI",
-          "route": "GREKI JUDDS BAF KJOHN CEFOU YBC KETLA 6700N/05000W 7200N/04000W 7800N/02000W 8000N/00000E 8000N/02000E 8000N/03000E PIREL N611 DOSON R705 OKASA R705 BRT G490 SERNA Y520 POLHO G218 TMR B458 VERUX B458 DADGA W37 OMBEB R473 BEMAG R473 WYN W18 SANIP W18 NLG W23 ZUH R473 SIERA"
+          "exit": "MERIT",
+          "route": "MERIT JUDDS BAF KJOHN CEFOU YBC KETLA 6700N/05000W 7100N/04000W 7600N/02000W 7900N/00000E 8000N/02000E 8000N/03000E PIREL N611 DOSON R705 KOSUM R705 BRT G490 SERNA Y520 POLHO G218 TMR B458 DADGA W37 ATMEM W37 OMBEB R473 BEMAG R473 WYN W18 NLG W23 ZUH R473 SIERA"
         },
         {
           "airlines": [
             {
-              "fleet": "jumbo",
+              "types":["A388", "B748"],
               "icao": "KAL"
             }
           ],
@@ -1393,24 +2224,35 @@
         {
           "airlines": [
             {
-              "fleet": "a380",
-              "icao": "ANA"
+              "types":["A359"],
+              "icao": "AAR"
             }
           ],
-          "destination": "RJAA",
+          "destination": "RKSI",
           "exit": "GAYEL",
-          "route": "GAYEL Q818 WOZEE Q917 DUTEL Q917 SSM YRL 5400N/10000W 5800N/11000W 6000N/12000W 6100N/13000W IGSOM OMSUN NCA20 ELLAM TED NODLE R220 NOSHO R220 NIKLL R220 NIPPI R220 NOGAL R220 NANAC Y810 OLDIV Y809 SUPOK"
+          "route": "GAYEL Q812 SYR TULEG BOBSU 5000N/08300W 5500N/09000W 6030N/10000W 6330N/11000W 6500N/12000W 6600N/13000W GOATS BTT NCA30 OME R338 IDROD R338 MARCC R338 NATES R220 NIPPI R220 NUBDA R220 NODAN R217 SDE Y512 GTC Y142 SAMON Y14 SUGNO Y16 SAPRA Y685 GUKDO GUKDO2E"
         },
         {
           "airlines": [
             {
-              "fleet": "b788",
+              "types":["A359"],
               "icao": "AIC"
             }
           ],
           "destination": "VIDP",
-          "exit": "BETTE",
-          "route": "BETTE ACK KANNI N195A NICSO NATY MALOT NATY GISTI EVRIN L607 NUMPO L607 KONAN UL607 MATUG BOMBI TENLO LAMSI STEIN TEGRI BULEN L742 RIXEN UA17 YAVRU UA4 ERZ UN161 YAVUZ UN161 INDUR N161 EDATA M11 RODAR A909 BABUM A477 BUPOR B198 OGNOB G555 USETU G500 BUTRA L181 POMIR G500 FIRUZ P500 PS T400 SULOM A466 IGINO IGIN5A"
+          "exit": "GREKI",
+          "route": "GREKI JUDDS MARTN CEFOU SAVRY 6300N/05000W 6600N/04000W 6800N/03000W 6900N/02000W 7000N/01000W 7000N/00000E VIBON RIXEM RUDAM P35 SOTIS T822 LIKPA T762 ADMES T762 BASAB M168 ARK W332 DZG M168 TIMKA P178 SMK L139 TULGA L139 KIBFU L139 INKAR L139 PERUD L139 POMIR G500 FIRUZ P500 GERRY P500 ATROL P500 PS T400 SULOM A466 ELKUX"
+        },
+        {
+          "airlines": [
+            {
+              "types":["B789"],
+              "icao": "AAL"
+            }
+          ],
+          "destination": "VIDP",
+          "exit": "MERIT",
+          "route": "MERIT HFD PUT EBONY N497C RIKAL 5400N/05000W 5700N/04000W 5800N/03000W 5800N/02000W GOMUP GINGA TLA L602 OTR L90 DOLAS L603 LAMSO OMELO ODLIV OMIFU ABULI KARIL UDROS CRM UM11 TBN UG261 NOLGA N61 LAGAS M747 SUBUT T923 ERLEV M11 RODAR A909 BABUM A477 POGON T388 BUPOR Y92 OGNOB Z514 USETU Z407 BUTRA L181 POMIR G500 FIRUZ P500 PS T400 SULOM A466 ELKUX ELKUX6H"
         }
       ],
       "exit_categories": {
