@@ -4902,6 +4902,7 @@
         "initial_altitude": 6000,
         "assigned_altitude": 3000,
         "initial_speed": 210,
+        "speed_restriction": 210,
         "expect_approach": null,
         "airlines": {
           "KJFK": [
@@ -6984,6 +6985,7 @@
         "initial_altitude": 12000,
         "assigned_altitude": 5000,
         "initial_speed": 210,
+        "speed_restriction": 210,
         "description": "PARCH3",
         "expect_approach": null,
         "airlines": {
