@@ -6773,9 +6773,16 @@
     },
     "Laguardia Departure": {
       "frequency": 120400,
-      "radio_name": "New York approach",
+      "radio_name": "New York departure",
       "scope_char": "L",
       "sector_id": "1L",
+      "facility": "N90"
+    },
+    "NYACK": {
+      "frequency": 120550,
+      "radio_name": "New York departure",
+      "scope_char": "Y",
+      "sector_id": "1Y",
       "facility": "N90"
     },
     "Morristown tower": {
@@ -7012,6 +7019,7 @@
       "controllers": [
         "1L",
         "1V",
+        "1Y",
         "NY_CTR",
         "DC_CTR",
         "BOS_CTR",
@@ -7063,6 +7071,7 @@
       "controllers": [
         "1L",
         "1V",
+        "1Y",
         "NY_CTR",
         "DC_CTR",
         "BOS_CTR",
@@ -7120,6 +7129,7 @@
       "controllers": [
         "1L",
         "1V",
+        "1Y",
         "NY_CTR",
         "DC_CTR",
         "BOS_CTR",
@@ -7289,6 +7299,7 @@
       "controllers": [
         "1L",
         "1V",
+        "1Y",
         "NY_CTR",
         "DC_CTR",
         "BOS_CTR",
@@ -7379,6 +7390,7 @@
       "controllers": [
         "1L",
         "1V",
+        "1Y",
         "NY_CTR",
         "DC_CTR",
         "BOS_CTR",
@@ -7447,6 +7459,7 @@
       "controllers": [
         "1L",
         "1V",
+        "1Y",
         "NY_CTR",
         "DC_CTR",
         "BOS_CTR",
