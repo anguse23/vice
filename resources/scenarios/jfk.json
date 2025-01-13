@@ -8134,6 +8134,12 @@
       "scope_char": "H",
       "sector_id": "3H"
     },
+    "ISP_R_APP": {
+      "frequency": 133100,
+      "radio_name": "New York departure",
+      "scope_char": "R",
+      "sector_id": "3R"
+    },
     "ISP_TWR": {
       "frequency": 119300,
       "radio_name": "Long Island Macarthur tower",
@@ -8732,6 +8738,131 @@
       ],
       "wind": {
         "direction": 190,
+        "gust": 17,
+        "speed": 12
+      }
+    },
+    "KJFK Depart 22R/31L": {
+      "airspace": {
+        "JFK_DEP": [ "JFK_DEP_22RL" ]
+      },
+      "solo_controller": "JFK_DEP",
+      "controllers": [
+        "BOS_E_CTR",
+        "EWR_APP",
+        "FRG_TWR",
+        "HVN_TWR",
+        "ISP_TWR",
+        "ISP_R_APP",
+        "JFK_TWR",
+        "LGA_APP",
+        "LGA_DEP",
+        "NY_B_CTR",
+        "NY_LE_DEP",
+        "NY_LS_DEP"
+      ],
+      "default_maps": [ "JFK ARR/DEP RWY 22L/R" ],
+      "departure_runways": [
+        {
+          "airport": "KJFK",
+          "rate": 40,
+          "runway": "22R"
+        },
+        {
+          "airport": "KJFK",
+          "rate": 5,
+          "runway": "31L",
+          "category":"Southwest"
+        },
+        {
+          "airport": "KLGA",
+          "category": "Water",
+          "rate": 0,
+          "runway": "31"
+        },
+        {
+          "airport": "KLGA",
+          "category": "Southwest",
+          "rate": 0,
+          "runway": "31"
+        },
+        {
+          "airport": "KHVN",
+          "rate": 0,
+          "runway": "20"
+        },
+        {
+          "airport": "KISP",
+          "rate": 0,
+          "runway": "33L"
+        },
+        {
+          "airport": "KFRG",
+          "rate": 0,
+          "runway": "32"
+        }
+      ],
+      "wind": {
+        "direction": 330,
+        "gust": 17,
+        "speed": 12
+      }
+    },
+    "KJFK Depart 31L": {
+      "airspace": {
+        "JFK_DEP": [ "JFK_DEP_31RL" ]
+      },
+      "solo_controller": "JFK_DEP",
+      "controllers": [
+        "BOS_E_CTR",
+        "EWR_APP",
+        "FRG_TWR",
+        "HVN_TWR",
+        "ISP_TWR",
+        "JFK_TWR",
+        "LGA_APP",
+        "LGA_DEP",
+        "NY_B_CTR",
+        "NY_LE_DEP",
+        "NY_LS_DEP"
+      ],
+      "default_maps": [ "JFK ARR/DEP RWY 31L/R" ],
+      "departure_runways": [
+        {
+          "airport": "KJFK",
+          "rate": 40,
+          "runway": "31L"
+        },
+        {
+          "airport": "KLGA",
+          "category": "Water",
+          "rate": 0,
+          "runway": "31"
+        },
+        {
+          "airport": "KLGA",
+          "category": "Southwest",
+          "rate": 0,
+          "runway": "31"
+        },
+        {
+          "airport": "KHVN",
+          "rate": 0,
+          "runway": "20"
+        },
+        {
+          "airport": "KISP",
+          "rate": 0,
+          "runway": "33L"
+        },
+        {
+          "airport": "KFRG",
+          "rate": 0,
+          "runway": "32"
+        }
+      ],
+      "wind": {
+        "direction": 330,
         "gust": 17,
         "speed": 12
       }
