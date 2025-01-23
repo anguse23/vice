@@ -30,6 +30,92 @@
                     "cifp_id": "I36R"
                 }
             },
+            "atpa_volumes":{
+                "36C": {
+                    "runway_threshold": "_CLT_36C",
+                    "heading": 3,
+                    "max_heading_deviation": 40,
+                    "floor":0,
+                    "ceiling": 8000,
+                    "length":25,
+                    "left_width":1000,
+                    "right_width":1000,
+                    "filtered_scratchpads": ["VAP"],
+                    "excluded_scratchpads": ["IL, IR"],
+                    "enable_2.5nm":true,
+                    "2.5nm_distance":10
+                },
+                "36L": {
+                    "runway_threshold": "_CLT_36L",
+                    "heading": 3,
+                    "max_heading_deviation": 40,
+                    "floor":0,
+                    "ceiling": 7000,
+                    "length":25,
+                    "left_width":1000,
+                    "right_width":1000,
+                    "filtered_scratchpads": ["VAP"],
+                    "excluded_scratchpads": ["IC, IR"],
+                    "enable_2.5nm":true,
+                    "2.5nm_distance":10
+                },
+                "36R": {
+                    "runway_threshold": "_CLT_36R",
+                    "heading": 3,
+                    "max_heading_deviation": 40,
+                    "floor":0,
+                    "ceiling": 6000,
+                    "length":20,
+                    "left_width":1000,
+                    "right_width":1000,
+                    "filtered_scratchpads": ["VAP"],
+                    "excluded_scratchpads": ["IL, IC"],
+                    "enable_2.5nm":true,
+                    "2.5nm_distance":10
+                },
+                "18C": {
+                    "runway_threshold": "_CLT_18C",
+                    "heading": 183,
+                    "max_heading_deviation": 40,
+                    "floor":0,
+                    "ceiling": 8000,
+                    "length":25,
+                    "left_width":1000,
+                    "right_width":1000,
+                    "filtered_scratchpads": ["VAP"],
+                    "excluded_scratchpads": ["IL, IR"],
+                    "enable_2.5nm":true,
+                    "2.5nm_distance":10
+                },
+                "18L": {
+                    "runway_threshold": "_CLT_18L",
+                    "heading": 183,
+                    "max_heading_deviation": 40,
+                    "floor":0,
+                    "ceiling": 6000,
+                    "length":20,
+                    "left_width":1000,
+                    "right_width":1000,
+                    "filtered_scratchpads": ["VAP"],
+                    "excluded_scratchpads": ["IC, IR"],
+                    "enable_2.5nm":true,
+                    "2.5nm_distance":10
+                },
+                "18R": {
+                    "runway_threshold": "_CLT_18R",
+                    "heading": 183,
+                    "max_heading_deviation": 40,
+                    "floor":0,
+                    "ceiling": 7000,
+                    "length":25,
+                    "left_width":1000,
+                    "right_width":1000,
+                    "filtered_scratchpads": ["VAP"],
+                    "excluded_scratchpads": ["IL, IC"],
+                    "enable_2.5nm":true,
+                    "2.5nm_distance":10
+                }
+      },
             "departure_routes": {
                 "18L": {
                     "RDU,TYI,NUTZE": {
@@ -4649,7 +4735,7 @@
         "NORTHWEST_36LFINAL": {
             "arrivals": [
                 {
-                    "waypoints": "CEDOX/ho VALLL/h183",
+                    "waypoints": "CEDOX/s210/ho VALLL/h183",
                     "cruise_altitude": 32000,
                     "star": "PARQR4",
                     "initial_controller": "CLT_U_APP",

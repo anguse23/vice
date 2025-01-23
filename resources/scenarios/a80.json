@@ -8,71 +8,157 @@
           "runway": "8L",
           "type": "ILS",
           "waypoints": [
-            "LARII/a5000 JAAJJ/a5000 BAZAR/a4000 SCHEL/a2900"
+            "LARII/a5000+/iaf JAAJJ/a5000+/if BAZAR/a4000+ SCHEL/a2900+/faf"
           ]
         },
         "I8R": {
           "runway": "8R",
           "type": "ILS",
           "waypoints": [
-            "GPEAT/a5000 PEARI/a5000 NZBIT/a4000 HARSN/a2800"
+            "GPEAT/a5000+/iaf PEARI/a5000+/if NZBIT/a4000+ HARSN/a2800+/faf"
           ]
         },
         "I9L": {
           "runway": "9L",
           "type": "ILS",
           "waypoints": [
-            "RYENN/a7000 AAKAY/a6000 ARRBE/a5000 HRDEY/a4000 VINII/a2700"
+            "RYENN/a7000+/iaf AAKAY/a6000+ ARRBE/a5000+/if HRDEY/a4000+ VINII/a2700+/faf"
           ]
         },
         "I9R": {
           "runway": "9R",
           "type": "ILS",
           "waypoints": [
-            "ANDIY/a7000 DFINS/a6000 GGUYY/a5000 EEASY/a4000 BURNY/a2700"
+            "ANDIY/a7000+/iaf DFINS/a6000+ GGUYY/a5000+/if EEASY/a4000+ BURNY/a2700+/faf"
           ]
         },
         "I10": {
           "runway": "10",
           "type": "ILS",
           "waypoints": [
-            "DEWHY/a4000 CTEEE/a4000 ZMANN/a2700"
+            "DEWHY/iaf CTEEE/a4000+/if ZMANN/a2700+/faf"
           ]
         },
         "I6L": {
           "runway": "26L",
           "type": "ILS",
           "waypoints": [
-            "JIRRI/a5000 BOYKN/a5000 MARKD/a4000 DEJAA/a2600"
+            "JIRRI/a5000+/iaf BOYKN/a5000+/if MARKD/a4000+ DEJAA/a2600+/faf"
           ]
         },
         "I6R": {
           "runway": "26R",
           "type": "ILS",
           "waypoints": [
-            "ZELOW/a5000 HAINZ/a5000 BAMBU/a4000 AJAAY/a2700"
+            "ZELOW/a5000+/iaf HAINZ/a5000+/if BAMBU/a4000+ AJAAY/a2700+/faf"
           ]
         },
         "I7L": {
           "runway": "27L",
           "type": "ILS",
           "waypoints": [
-            "SLVAA/a7000 ROMMM/a6000 SEJAY/a5000 GRMPI/a4000 DEPOT/a2800"
+            "SLVAA/a7000+/iaf ROMMM/a6000+ SEJAY/a5000+/if GRMPI/a4000+ DEPOT/a2800+/faf"
           ]
         },
         "I7R": {
           "runway": "27R",
           "type": "ILS",
           "waypoints": [
-            "YOUYU/a7000 MMCAP/a6000 MAASN/a5000 MRCER/a4000 OSTRR/a2700"
+            "YOUYU/a7000+/iaf MMCAP/a6000+ MAASN/a5000+/if MRCER/a4000+ OSTRR/a2700+/faf"
           ]
         },
         "I28": {
           "runway": "28",
           "type": "ILS",
           "waypoints": [
-            "N033.37.09.702,W083.54.02.559 PRMAN/a4000 WONZR/a4000 JUBBA/a2700"
+            " TERII/iaf PRMAN/a4000+ WONZR/a4000+/if JUBBA/a2700+/faf"
           ]
+        }
+      },
+      "atpa_volumes":{
+        "26R": {
+          "runway_threshold": "_ATL_26R",
+          "heading": 275,
+          "max_heading_deviation": 40,
+          "floor":0,
+          "ceiling": 6000,
+          "length":22,
+          "left_width":500,
+          "right_width":500,
+          "filtered_scratchpads": ["VAP"],
+          "excluded_scratchpads": ["I28, I7L"],
+          "enable_2.5nm":true,
+          "2.5nm_distance":10
+        },
+        "27L": {
+          "runway_threshold": "_ATL_27L",
+          "heading": 275,
+          "max_heading_deviation": 40,
+          "floor":0,
+          "ceiling": 8000,
+          "length":22,
+          "left_width":500,
+          "right_width":500,
+          "filtered_scratchpads": ["VAP"],
+          "excluded_scratchpads": ["I28, I6R"],
+          "enable_2.5nm":true,
+          "2.5nm_distance":10
+        },
+        "28": {
+          "runway_threshold": "_ATL_28",
+          "heading": 275,
+          "max_heading_deviation": 40,
+          "floor":0,
+          "ceiling": 5000,
+          "length":20,
+          "left_width":500,
+          "right_width":500,
+          "filtered_scratchpads": ["VAP"],
+          "excluded_scratchpads": ["I7L, I6R"],
+          "enable_2.5nm":true,
+          "2.5nm_distance":10
+        },
+        "8L": {
+          "runway_threshold": "_ATL_8L",
+          "heading": 95,
+          "max_heading_deviation": 40,
+          "floor":0,
+          "ceiling": 6000,
+          "length":23,
+          "left_width":500,
+          "right_width":500,
+          "filtered_scratchpads": ["VAP"],
+          "excluded_scratchpads": ["I9R, I10"],
+          "enable_2.5nm":true,
+          "2.5nm_distance":10
+        },
+        "9R": {
+          "runway_threshold": "_ATL_9R",
+          "heading": 95,
+          "max_heading_deviation": 40,
+          "floor":0,
+          "ceiling": 8000,
+          "length":24,
+          "left_width":500,
+          "right_width":500,
+          "filtered_scratchpads": ["VAP"],
+          "excluded_scratchpads": ["I8L, I10"],
+          "enable_2.5nm":true,
+          "2.5nm_distance":10
+        },
+        "10": {
+          "runway_threshold": "_ATL_10",
+          "heading": 95,
+          "max_heading_deviation": 40,
+          "floor":0,
+          "ceiling": 8000,
+          "length":19,
+          "left_width":500,
+          "right_width":500,
+          "filtered_scratchpads": ["VAP"],
+          "excluded_scratchpads": ["I8L, I9R"],
+          "enable_2.5nm":true,
+          "2.5nm_distance":10
         }
       },
       "departure_routes": {
